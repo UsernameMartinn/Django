@@ -1,0 +1,15 @@
+<!Doctype html>
+<html lang=en>
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+<h1>Nabídka letadel</h1>
+{% for l in letadla_list %}
+<h3>{{ l.nazev |safe}}</h3> <br>
+<h3>{{ l.nazev |safe}}</h3> <br>
+<h3>{{ l.nazev |safe}}</h3> <br>
+<br>
+{% endfor %}
+</body>
